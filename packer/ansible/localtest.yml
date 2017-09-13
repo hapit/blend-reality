@@ -1,0 +1,9 @@
+---
+- hosts: all
+  tasks:
+     - name: git checkout  
+       git: 
+          repo: "https://github.com/JacquesLucke/animation_nodes.git"
+          dest: "/opt/gitcheckoutansibletest/animation_nodes"
+          version: "15626d1e4d86e2cceaacef08c4b8bfd8f6abe3e2"
+     

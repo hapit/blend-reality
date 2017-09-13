@@ -1,0 +1,20 @@
+---
+    - name: download blender
+      get_url:
+         url: "{{blender_url}}"
+         dest: "{{blender_download_dest}}"
+         checksum: "{{ blender_checksum }}"
+    - name: unpack blender
+      unarchive:
+         src: "{{blender_download_dest}}"
+         dest: /opt/
+         remote_src: True
+    - file:
+         src: /opt/{{blender_filename}}
+         dest: "{{blender_install_dir}}"
+         state: link
+    - file:
+         src: "{{blender_install_dir}}/blender"
+         dest: /usr/bin/blender
+         state: link
+

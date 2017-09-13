@@ -1,0 +1,479 @@
+[
+  {
+    "type": "t2",
+    "name": "t2.nano",
+    "vCPU": "1",
+    "memory": "0.5",
+    "storage": "ebsonly",
+    "ecu": "variable",
+    "price": "0.0059"
+  },
+  {
+    "type": "t2",
+    "name": "t2.micro",
+    "vCPU": "1",
+    "memory": "1",
+    "storage": "ebsonly",
+    "ecu": "variable",
+    "price": "0.012"
+  },
+  {
+    "type": "t2",
+    "name": "t2.small",
+    "vCPU": "1",
+    "memory": "2",
+    "storage": "ebsonly",
+    "ecu": "variable",
+    "price": "0.023"
+  },
+  {
+    "type": "t2",
+    "name": "t2.medium",
+    "vCPU": "2",
+    "memory": "4",
+    "storage": "ebsonly",
+    "ecu": "variable",
+    "price": "0.047"
+  },
+  {
+    "type": "t2",
+    "name": "t2.large",
+    "vCPU": "2",
+    "memory": "8",
+    "storage": "ebsonly",
+    "ecu": "variable",
+    "price": "0.094"
+  },
+  {
+    "type": "t2",
+    "name": "t2.xlarge",
+    "vCPU": "4",
+    "memory": "16",
+    "storage": "ebsonly",
+    "ecu": "variable",
+    "price": "0.188"
+  },
+  {
+    "type": "t2",
+    "name": "t2.2xlarge",
+    "vCPU": "8",
+    "memory": "32",
+    "storage": "ebsonly",
+    "ecu": "variable",
+    "price": "0.376"
+  },
+  {
+    "type": "m4",
+    "name": "m4.large",
+    "vCPU": "2",
+    "memory": "8",
+    "storage": "ebsonly",
+    "ecu": "6.5",
+    "price": "0.108"
+  },
+  {
+    "type": "m4",
+    "name": "m4.xlarge",
+    "vCPU": "4",
+    "memory": "16",
+    "storage": "ebsonly",
+    "ecu": "13",
+    "price": "0.215"
+  },
+  {
+    "type": "m4",
+    "name": "m4.2xlarge",
+    "vCPU": "8",
+    "memory": "32",
+    "storage": "ebsonly",
+    "ecu": "26",
+    "price": "0.431"
+  },
+  {
+    "type": "m4",
+    "name": "m4.4xlarge",
+    "vCPU": "16",
+    "memory": "64",
+    "storage": "ebsonly",
+    "ecu": "53.5",
+    "price": "0.862"
+  },
+  {
+    "type": "m4",
+    "name": "m4.10xlarge",
+    "vCPU": "40",
+    "memory": "160",
+    "storage": "ebsonly",
+    "ecu": "124.5",
+    "price": "2.155"
+  },
+  {
+    "type": "m4",
+    "name": "m4.16xlarge",
+    "vCPU": "64",
+    "memory": "256",
+    "storage": "ebsonly",
+    "ecu": "188",
+    "price": "3.447"
+  },
+  {
+    "type": "m3",
+    "name": "m3.medium",
+    "vCPU": "1",
+    "memory": "3.75",
+    "storage": "1 x 4 SSD",
+    "ecu": "3",
+    "price": "0.067"
+  },
+  {
+    "type": "m3",
+    "name": "m3.large",
+    "vCPU": "2",
+    "memory": "7.5",
+    "storage": "1 x 32 SSD",
+    "ecu": "6.5",
+    "price": "0.133"
+  },
+  {
+    "type": "m3",
+    "name": "m3.xlarge",
+    "vCPU": "4",
+    "memory": "15",
+    "storage": "2 x 40 SSD",
+    "ecu": "13",
+    "price": "0.266"
+  },
+  {
+    "type": "m3",
+    "name": "m3.2xlarge",
+    "vCPU": "8",
+    "memory": "30",
+    "storage": "2 x 80 SSD",
+    "ecu": "26",
+    "price": "0.532"
+  },
+  {
+    "type": "c4",
+    "name": "c4.large",
+    "vCPU": "2",
+    "memory": "3.75",
+    "storage": "ebsonly",
+    "ecu": "8",
+    "price": "0.1"
+  },
+  {
+    "type": "c4",
+    "name": "c4.xlarge",
+    "vCPU": "4",
+    "memory": "7.5",
+    "storage": "ebsonly",
+    "ecu": "16",
+    "price": "0.199"
+  },
+  {
+    "type": "c4",
+    "name": "c4.2xlarge",
+    "vCPU": "8",
+    "memory": "15",
+    "storage": "ebsonly",
+    "ecu": "31",
+    "price": "0.398"
+  },
+  {
+    "type": "c4",
+    "name": "c4.4xlarge",
+    "vCPU": "16",
+    "memory": "30",
+    "storage": "ebsonly",
+    "ecu": "62",
+    "price": "0.796"
+  },
+  {
+    "type": "c4",
+    "name": "c4.8xlarge",
+    "vCPU": "36",
+    "memory": "60",
+    "storage": "ebsonly",
+    "ecu": "132",
+    "price": "1.591"
+  },
+  {
+    "type": "c3",
+    "name": "c3.large",
+    "vCPU": "2",
+    "memory": "3.75",
+    "storage": "2 x 16 SSD",
+    "ecu": "7",
+    "price": "0.105"
+  },
+  {
+    "type": "c3",
+    "name": "c3.xlarge",
+    "vCPU": "4",
+    "memory": "7.5",
+    "storage": "2 x 40 SSD",
+    "ecu": "14",
+    "price": "0.21"
+  },
+  {
+    "type": "c3",
+    "name": "c3.2xlarge",
+    "vCPU": "8",
+    "memory": "15",
+    "storage": "2 x 80 SSD",
+    "ecu": "28",
+    "price": "0.42"
+  },
+  {
+    "type": "c3",
+    "name": "c3.4xlarge",
+    "vCPU": "16",
+    "memory": "30",
+    "storage": "2 x 160 SSD",
+    "ecu": "55",
+    "price": "0.84"
+  },
+  {
+    "type": "c3",
+    "name": "c3.8xlarge",
+    "vCPU": "32",
+    "memory": "60",
+    "storage": "2 x 320 SSD",
+    "ecu": "108",
+    "price": "1.68"
+  },
+  {
+    "type": "p2",
+    "name": "p2.xlarge",
+    "vCPU": "4",
+    "memory": "61",
+    "storage": "ebsonly",
+    "ecu": "12",
+    "price": "0.9"
+  },
+  {
+    "type": "p2",
+    "name": "p2.8xlarge",
+    "vCPU": "32",
+    "memory": "488",
+    "storage": "ebsonly",
+    "ecu": "94",
+    "price": "7.2"
+  },
+  {
+    "type": "p2",
+    "name": "p2.16xlarge",
+    "vCPU": "64",
+    "memory": "732",
+    "storage": "ebsonly",
+    "ecu": "188",
+    "price": "14.4"
+  },
+  {
+    "type": "g2",
+    "name": "g2.2xlarge",
+    "vCPU": "8",
+    "memory": "15",
+    "storage": "60 SSD",
+    "ecu": "26",
+    "price": "0.65"
+  },
+  {
+    "type": "g2",
+    "name": "g2.8xlarge",
+    "vCPU": "32",
+    "memory": "60",
+    "storage": "2 x 120 SSD",
+    "ecu": "104",
+    "price": "2.6"
+  },
+  {
+    "type": "x1",
+    "name": "x1.16xlarge",
+    "vCPU": "64",
+    "memory": "976",
+    "storage": "1 x 1920 SSD",
+    "ecu": "174.5",
+    "price": "6.669"
+  },
+  {
+    "type": "x1",
+    "name": "x1.32xlarge",
+    "vCPU": "128",
+    "memory": "1952",
+    "storage": "2 x 1920 SSD",
+    "ecu": "349",
+    "price": "13.338"
+  },
+  {
+    "type": "r3",
+    "name": "r3.large",
+    "vCPU": "2",
+    "memory": "15",
+    "storage": "1 x 32 SSD",
+    "ecu": "6.5",
+    "price": "0.166"
+  },
+  {
+    "type": "r3",
+    "name": "r3.xlarge",
+    "vCPU": "4",
+    "memory": "30.5",
+    "storage": "1 x 80 SSD",
+    "ecu": "13",
+    "price": "0.333"
+  },
+  {
+    "type": "r3",
+    "name": "r3.2xlarge",
+    "vCPU": "8",
+    "memory": "61",
+    "storage": "1 x 160 SSD",
+    "ecu": "26",
+    "price": "0.665"
+  },
+  {
+    "type": "r3",
+    "name": "r3.4xlarge",
+    "vCPU": "16",
+    "memory": "122",
+    "storage": "1 x 320 SSD",
+    "ecu": "52",
+    "price": "1.33"
+  },
+  {
+    "type": "r3",
+    "name": "r3.8xlarge",
+    "vCPU": "32",
+    "memory": "244",
+    "storage": "2 x 320 SSD",
+    "ecu": "104",
+    "price": "2.66"
+  },
+  {
+    "type": "r4",
+    "name": "r4.large",
+    "vCPU": "2",
+    "memory": "15.25",
+    "storage": "ebsonly",
+    "ecu": "7",
+    "price": "0.133"
+  },
+  {
+    "type": "r4",
+    "name": "r4.xlarge",
+    "vCPU": "4",
+    "memory": "30.5",
+    "storage": "ebsonly",
+    "ecu": "13.5",
+    "price": "0.266"
+  },
+  {
+    "type": "r4",
+    "name": "r4.2xlarge",
+    "vCPU": "8",
+    "memory": "61",
+    "storage": "ebsonly",
+    "ecu": "27",
+    "price": "0.532"
+  },
+  {
+    "type": "r4",
+    "name": "r4.4xlarge",
+    "vCPU": "16",
+    "memory": "122",
+    "storage": "ebsonly",
+    "ecu": "53",
+    "price": "1.064"
+  },
+  {
+    "type": "r4",
+    "name": "r4.8xlarge",
+    "vCPU": "32",
+    "memory": "244",
+    "storage": "ebsonly",
+    "ecu": "99",
+    "price": "2.128"
+  },
+  {
+    "type": "r4",
+    "name": "r4.16xlarge",
+    "vCPU": "64",
+    "memory": "488",
+    "storage": "ebsonly",
+    "ecu": "195",
+    "price": "4.256"
+  },
+  {
+    "type": "i2",
+    "name": "i2.xlarge",
+    "vCPU": "4",
+    "memory": "30.5",
+    "storage": "1 x 800 SSD",
+    "ecu": "14",
+    "price": "0.853"
+  },
+  {
+    "type": "i2",
+    "name": "i2.2xlarge",
+    "vCPU": "8",
+    "memory": "61",
+    "storage": "2 x 800 SSD",
+    "ecu": "27",
+    "price": "1.705"
+  },
+  {
+    "type": "i2",
+    "name": "i2.4xlarge",
+    "vCPU": "16",
+    "memory": "122",
+    "storage": "4 x 800 SSD",
+    "ecu": "53",
+    "price": "3.41"
+  },
+  {
+    "type": "i2",
+    "name": "i2.8xlarge",
+    "vCPU": "32",
+    "memory": "244",
+    "storage": "8 x 800 SSD",
+    "ecu": "104",
+    "price": "6.82"
+  },
+  {
+    "type": "d2",
+    "name": "d2.xlarge",
+    "vCPU": "4",
+    "memory": "30.5",
+    "storage": "3 x 2000 HDD",
+    "ecu": "14",
+    "price": "0.69"
+  },
+  {
+    "type": "d2",
+    "name": "d2.2xlarge",
+    "vCPU": "8",
+    "memory": "61",
+    "storage": "6 x 2000 HDD",
+    "ecu": "28",
+    "price": "1.38"
+  },
+  {
+    "type": "d2",
+    "name": "d2.4xlarge",
+    "vCPU": "16",
+    "memory": "122",
+    "storage": "12 x 2000 HDD",
+    "ecu": "56",
+    "price": "2.76"
+  },
+  {
+    "type": "d2",
+    "name": "d2.8xlarge",
+    "vCPU": "36",
+    "memory": "244",
+    "storage": "24 x 2000 HDD",
+    "ecu": "116",
+    "price": "5.52"
+  }
+]

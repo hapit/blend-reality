@@ -1,0 +1,10 @@
+  - name: apt install unzip
+    apt: 
+      name: unzip
+
+  - name: download and extract animation_nodesv2_0_linux
+    unarchive:
+      src: https://github.com/JacquesLucke/animation_nodes/releases/download/v2.0/animation_nodes_v2_0_linux.zip
+      dest: "/opt/blender/{{blender_version}}/scripts/addons/"
+      remote_src: True
+       

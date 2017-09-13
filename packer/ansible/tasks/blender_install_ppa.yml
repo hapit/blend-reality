@@ -1,0 +1,9 @@
+---
+    - name: 'add blender ppa from thomas-schiex'
+      apt_repository: 
+         repo: 'ppa:thomas-schiex/blender' 
+    - name: 'install blender from ppa'
+      apt: "name={{ item }} state=installed"
+      with_items:
+         - blender
+ 

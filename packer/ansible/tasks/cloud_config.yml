@@ -1,0 +1,8 @@
+---
+    - name: cloud config enable root
+      command: "perl -p -i.bak -e 's/^disable_root: 1/disable_root: 0/' /etc/cloud/cloud.cfg"
+    - name: cloud config enable root
+      command: "perl -i -pe 's/#PermitRootLogin .*/PermitRootLogin without-password/' /etc/ssh/sshd_config"
+    - name: cloud config enable root
+      command: "perl -p -i.bak -e 's/.*ssh-rsa/ssh-rsa/' /root/.ssh/authorized_keys"
+

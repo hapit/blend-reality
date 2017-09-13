@@ -1,0 +1,32 @@
+---
+- hosts: all
+  become: yes
+  gather_facts: no
+  vars:
+     blender_mirror: http://download.blender.org/release/
+     blender_version: 2.78
+     blender_version_postfix: "c"
+     glibc_version: 219
+     blender_filename: blender-{{blender_version}}{{blender_version_postfix}}-linux-glibc{{glibc_version}}-x86_64
+     blender_path: Blender{{blender_version}}/{{blender_filename}}.tar.bz2
+     blender_url: "{{blender_mirror}}{{blender_path}}"
+     blender_checksum: "md5:6aec4319f0a0cd632f48e07e2866d2ab"
+     blender_download_dest: /home/ubuntu/blender.tar.bz2
+     blender_install_dir: /opt/blender
+
+  pre_tasks:
+    - name: 'install python'
+      raw: sudo apt-get -y install python-minimal
+
+  tasks:
+   - include: tasks/blender_install_download.yml
+   - include: tasks/blender_install_addon_animation_nodes2.yml
+   - name: 'install packages for headless rendering'
+     apt: 'name={{ item }} state=installed'
+     with_items:
+        - libglu1-mesa
+        - libxi6
+        - libxrender1
+   - include: tasks/install_brenda.yml
+   - include: tasks/cloud_config.yml
+
