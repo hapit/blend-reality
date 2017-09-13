@@ -4,13 +4,13 @@
   gather_facts: no
   vars:
      blender_mirror: http://download.blender.org/release/
-     blender_version: 2.79
-     blender_version_postfix: ""
+     blender_version: 2.78
+     blender_version_postfix: "c"
      glibc_version: 219
-     blender_checksum: "md5:f89177ef97cad7d78d06cda7b9e66c8d"
      blender_filename: blender-{{blender_version}}{{blender_version_postfix}}-linux-glibc{{glibc_version}}-x86_64
      blender_path: Blender{{blender_version}}/{{blender_filename}}.tar.bz2
      blender_url: "{{blender_mirror}}{{blender_path}}"
+     blender_checksum: "md5:6aec4319f0a0cd632f48e07e2866d2ab"
      blender_download_dest: /home/ubuntu/blender.tar.bz2
      blender_install_dir: /opt/blender
 

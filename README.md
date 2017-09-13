@@ -1,4 +1,5 @@
 # blend-reality
+AWS keys are stored in `variables.json`. The file is added to `.gitignore` to not expose the values on github. For creating your own `varibales.json` file you can use the `variables.json.template` file.
 # Links
 ## Templates used for packer
 - https://github.com/kaorimatz/packer-templates

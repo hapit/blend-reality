@@ -7,4 +7,5 @@ packer_cache/
 *.vmdk
 *.ovf
 *.swp
+packer/variables.json
 

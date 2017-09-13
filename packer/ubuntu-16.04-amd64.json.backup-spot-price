@@ -2,8 +2,8 @@
   "builders": [
      {
           "type": "amazon-ebs",
-          "access_key": "___insert access_key here___",
-          "secret_key": "___insert secret_key here___",
+          "access_key": "{{user `aws_access_key`}}",
+          "secret_key": "{{user `aws_secret_key`}}",
           "region": "us-east-1",
           "source_ami": "ami-80861296",
           "instance_type": "t2.micro",
